@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: risma
+  annotations:
+    'backstage.io/kubernetes-namespace': myRlc
+  description: RISMA is a project that aims to be a ride state machine and service orchestrator
+  tags:
+    - golang
+    - risma
+  links:
+    - url: https://console.apps.private.okd4.teh-2.snappcloud.io/k8s/ns/rlc/deployments/risma
+      title: Teh-2 OKD
+      icon: cloud
+spec:
+  type: service
+  lifecycle: production
+  owner: rlc
