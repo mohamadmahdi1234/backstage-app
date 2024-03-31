@@ -5,4 +5,4 @@ metadata:
 spec:
   type: url
   targets:
-    - http://github.com/myorg/myproject/org-data-dump/catalog-info-staff.yaml
+    - https://github.com/mohamadmahdi1234/backstage-app/blob/main/Service-related/RismaService.yaml
